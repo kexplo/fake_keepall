@@ -20,6 +20,10 @@ setup(
     author='Chanwoong Kim',
     author_email='me@chanwoong.kim',
     license='MIT',
+    classifiers=[
+        'Environment :: Console', 'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3', 'Topic :: Text Processing'
+    ],
     entry_points={
         "console_scripts": ["fake-keepall = fake_keepall.__init__:cli"]
     },
