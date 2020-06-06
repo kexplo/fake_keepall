@@ -17,19 +17,19 @@ $ pip install fake-keepall
 ## Usage
 
 ```bash
-$ fake-keepall example.html --out example_out.html
+$ fake-keepall example.html example_out.html
 ```
 
 Set whitelist tags:
 
 ```bash
-$ fake-keepall example.html --out example_out.html --tags 'p,li'
+$ fake-keepall example.html example_out.html --tags 'p,li'
 ```
 
 Use custom CSS class:
 
 ```bash
-$ fake-keepall example.html --out example_out.html --class 'myclass'
+$ fake-keepall example.html example_out.html --class 'myclass'
 ```
 
 ## Screenshot
