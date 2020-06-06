@@ -34,4 +34,5 @@ $ fake-keepall example.html --out example_out.html --class 'myclass'
 
 ## Screenshot
 
+![screenshot](screenshot.png)
 
