@@ -21,7 +21,7 @@ if os.path.exists(readme_path):
 setup(
     long_description=readme,
     name='fake-keepall',
-    version='0.1.0',
+    version='0.1.1',
     description='Apply the fake `word-break: keep-all;` CSS property to static HTML file',
     python_requires='==3.*',
     project_urls={"repository": "https://github.com/kexplo/fake_keepall"},

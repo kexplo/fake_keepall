@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fake-keepall"
-version = "0.1.0"
+version = "0.1.1"
 description = "Apply the fake `word-break: keep-all;` CSS property to static HTML file"
 authors = ["Chanwoong Kim <me@chanwoong.kim>"]
 license = "MIT"
