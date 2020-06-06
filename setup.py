@@ -23,7 +23,7 @@ setup(
     name='fake-keepall',
     version='0.1.0',
     description='Apply the fake `word-break: keep-all;` CSS property to static HTML file',
-    python_requires='==3.*,>=3.8.0',
+    python_requires='==3.*',
     project_urls={"repository": "https://github.com/kexplo/fake_keepall"},
     author='Chanwoong Kim',
     author_email='me@chanwoong.kim',
