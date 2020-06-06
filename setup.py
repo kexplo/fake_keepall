@@ -34,7 +34,7 @@ setup(
     extras_require={
         "dev": [
             "flake8==3.*,>=3.8.2", "flake8-import-order==0.*,>=0.18.1",
-            "pyflakes==2.*,>=2.2.0"
+            "pyflakes==2.*,>=2.2.0", "pytest==5.*,>=5.4.3"
         ]
     },
 )
