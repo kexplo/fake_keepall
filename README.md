@@ -11,8 +11,21 @@ Add the `white-space: nowrap;` CSS property to every word to prevent line breaks
 ## Usage
 
 ```bash
+$ fake-keepall example.html --out example_out.html
+```
+
+Set whitelist tags:
+
+```bash
 $ fake-keepall example.html --out example_out.html --tags 'p,li'
 ```
 
+Use custom CSS class:
+
+```bash
+$ fake-keepall example.html --out example_out.html --class 'myclass'
+```
+
 ## Screenshot
+
 
