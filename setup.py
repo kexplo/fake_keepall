@@ -9,7 +9,14 @@ try:
 except ImportError:
     from distutils.core import setup
 
+import os.path
+
 readme = ''
+here = os.path.abspath(os.path.dirname(__file__))
+readme_path = os.path.join(here, 'README.rst')
+if os.path.exists(readme_path):
+    with open(readme_path, 'rb') as stream:
+        readme = stream.read().decode('utf8')
 
 setup(
     long_description=readme,
@@ -17,6 +24,7 @@ setup(
     version='0.1.0',
     description='Apply the fake `word-break: keep-all;` CSS property to static HTML file',
     python_requires='==3.*,>=3.8.0',
+    project_urls={"repository": "https://github.com/kexplo/fake_keepall"},
     author='Chanwoong Kim',
     author_email='me@chanwoong.kim',
     license='MIT',

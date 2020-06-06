@@ -8,6 +8,12 @@ This is useful when using the HTML->PDF converter that does not support the `wor
 
 Add the `white-space: nowrap;` CSS property to every word to prevent line breaks.
 
+## Installation
+
+```bash
+$ pip install fake-keepall
+```
+
 ## Usage
 
 ```bash
