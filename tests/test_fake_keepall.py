@@ -22,53 +22,53 @@ def test_with_default_options():
     output = '''<html>
  <body>
   <div>
-   <span style="white-space: nowarp;">
+   <span style="white-space: nowrap;">
     안녕하세요
    </span>
-   <span style="white-space: nowarp;">
+   <span style="white-space: nowrap;">
     안녕하세요
    </span>
   </div>
   <p>
-   <span style="white-space: nowarp;">
+   <span style="white-space: nowrap;">
     안녕하세요
    </span>
-   <span style="white-space: nowarp;">
+   <span style="white-space: nowrap;">
     안녕하세요
    </span>
   </p>
   <div>
    <p>
-    <span style="white-space: nowarp;">
+    <span style="white-space: nowrap;">
      안녕하세요
     </span>
-    <span style="white-space: nowarp;">
+    <span style="white-space: nowrap;">
      안녕하세요
     </span>
    </p>
    <li>
-    <span style="white-space: nowarp;">
+    <span style="white-space: nowrap;">
      안녕하세요
     </span>
-    <span style="white-space: nowarp;">
+    <span style="white-space: nowrap;">
      안녕하세요
     </span>
    </li>
   </div>
   <li>
-   <span style="white-space: nowarp;">
+   <span style="white-space: nowrap;">
     안녕하세요
    </span>
-   <span style="white-space: nowarp;">
+   <span style="white-space: nowrap;">
     안녕하세요
    </span>
   </li>
   <p>
    <span>
-    <span style="white-space: nowarp;">
+    <span style="white-space: nowrap;">
      안녕하세요
     </span>
-    <span style="white-space: nowarp;">
+    <span style="white-space: nowrap;">
      안녕하세요
     </span>
    </span>
@@ -86,19 +86,19 @@ def test_with_p_tag():
    안녕하세요 안녕하세요
   </div>
   <p>
-   <span style="white-space: nowarp;">
+   <span style="white-space: nowrap;">
     안녕하세요
    </span>
-   <span style="white-space: nowarp;">
+   <span style="white-space: nowrap;">
     안녕하세요
    </span>
   </p>
   <div>
    <p>
-    <span style="white-space: nowarp;">
+    <span style="white-space: nowrap;">
      안녕하세요
     </span>
-    <span style="white-space: nowarp;">
+    <span style="white-space: nowrap;">
      안녕하세요
     </span>
    </p>

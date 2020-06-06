@@ -19,7 +19,7 @@ def apply_fake_keep_all(element, custom_class=None):
         if custom_class is not None:
             span_tag['class'] = custom_class
         else:
-            span_tag['style'] = 'white-space: nowarp;'
+            span_tag['style'] = 'white-space: nowrap;'
         parent.append(span_tag)
         parent.append(' ')
 
