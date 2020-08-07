@@ -179,3 +179,26 @@ def test_with_custom_class():
 </html>
 '''
     assert convert_html(TEST_HTML, None, 'custom') == output
+
+
+def test_with_mixed_sibling_tags():
+    test_html = '<html><body><p>중간에 링크가 <a href="#">이렇게</a> 있네요</p></body></html>'  # noqa :E501
+    output = '''<html>
+ <body>
+  <p>
+   <span style="white-space: nowrap;">
+    중간에
+   </span>
+   <span style="white-space: nowrap;">
+    링크가
+   </span>
+   <a href="#">
+    이렇게
+   </a>
+   <span style="white-space: nowrap;">
+    있네요
+   </span>
+  </p>
+ </body>
+</html>'''
+    assert convert_html(test_html) == output

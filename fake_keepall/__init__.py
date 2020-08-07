@@ -7,9 +7,8 @@ def apply_fake_keep_all(element, custom_class=None):
     if len(words) <= 1:
         return
 
-    parent = element.parent
-    parent.clear()
     tmp_soup = BeautifulSoup(features='html.parser')
+    tmp_holder = tmp_soup.new_tag('span')
     for word in words:
         if not word:
             continue
@@ -20,8 +19,10 @@ def apply_fake_keep_all(element, custom_class=None):
             span_tag['class'] = custom_class
         else:
             span_tag['style'] = 'white-space: nowrap;'
-        parent.append(span_tag)
-        parent.append(' ')
+        tmp_holder.append(span_tag)
+        tmp_holder.append(' ')
+    element.replace_with(tmp_holder)
+    tmp_holder.unwrap()
 
 
 def conv(parent_element, whitelist_tags=['p', 'li'], custom_class=None):
